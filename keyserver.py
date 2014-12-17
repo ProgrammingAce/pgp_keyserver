@@ -587,9 +587,6 @@ class KeyServer:
 
 
 if __name__ == "__main__":
-    db = PGPKeyDatabase("data/")
-    db.initialize()
-    db.save_db()
     s = KeyServer(sys.argv)
 
 # vim: set smartindent tabstop=4 shiftwidth=4 expandtab:
